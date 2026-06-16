@@ -1,0 +1,31 @@
+{
+  "name": "deep-research",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "tailscale:serve": "./scripts/build-and-serve.sh",
+    "watch:reports": "./scripts/run-watch.sh",
+    "watch:start": "./scripts/start-watch.sh",
+    "watch:status": "./scripts/watch-status.sh",
+    "watch:stop": "./scripts/stop-watch.sh",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.3.0",
+    "astro": "^6.4.4",
+    "gray-matter": "^4.0.3",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@types/node": "^24.10.1"
+  }
+}
